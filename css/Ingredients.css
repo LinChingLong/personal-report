@@ -1,0 +1,234 @@
+@import url("reset.css");
+body{
+
+}
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+}
+/* -- header -- */
+header{
+    background-image: url("../index-image/top\(1440x145\)-02.jpg");
+    height: 146px;
+    display: flex;
+    align-items: center;
+}
+header img{
+    display: block;
+    width: 86px;
+    height: 100px;
+    margin-left: 80px;
+}
+header ul{
+    display: flex;
+    width: 615px;
+    align-items: center;
+    margin-left: auto;
+
+    margin-right: 100px;
+}
+header li{
+    flex-grow: 1;
+    position: relative;
+    margin: 0 auto;
+}
+header li a{
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+header li a:hover{
+
+}
+header li::after{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 24px;
+    background-color: white;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+header li:nth-last-child(2)::before{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 24px;
+    background-color: white;
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+header li img{
+    display: block;
+    width: 35px;
+    height: 30px;
+}
+header li:nth-last-child(1){
+    flex-grow: 0;
+}
+/* -- nav -- */
+nav{
+    width: 840px;
+    height: 500px;
+    
+    position: relative;
+}
+nav .bg-1{
+    background-color: rgb(255, 226, 181,.8);
+    display: block;
+    width: 1050px;
+    height: 350px;
+
+    position: absolute;
+    bottom: 0;
+}
+nav .turn-img{
+    border: 2px dotted white;
+    width: 850px;
+    height: 500px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    left: 75px;
+    top: 100px;
+}
+nav img{
+    display: block;
+    width: 250px;
+    height: 400px;
+    padding-top: 50px;
+}
+nav .img-right{
+    width: 350px;
+    height: 350px;
+
+    transform: translateX(980px);
+}
+nav .img-right img{
+    display: block;
+    width: 100%;
+}
+/* -- main -- */
+main{
+    width: 1440px;
+    height: 1000px;
+    margin: 0 auto;
+    background-image: url("../Ingredients-image/decorating-delicious-homemade-eclairs-with-chocolate-peanuts\ 拷貝.jpg");
+    background-size: cover;
+}
+main p{
+    color: white;
+    font-size: 24px;
+    line-height: 1.6;
+    width: 310px;
+    height: 500px;
+    
+    transform: translate(90px,350px);
+}
+/* -- footer -- */
+footer{
+    background-image: url("../index-image/footer\(1440x200\).jpg");
+    height: 200px;
+    display: flex;
+    position: relative;
+}
+footer img{
+    display: block;
+    height: 86px;
+    width: 86px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100px;
+    margin: auto;
+}
+footer h3{
+    color: white;
+    font-size: 24px;
+    line-height: 200px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 220px;
+    margin: auto;
+}
+footer ul{
+    display: flex;
+    width: 185px;
+    align-items: center;
+    justify-content: space-between;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100px;
+}
+footer ul li{
+    border: 2px solid white;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+}
+footer ul li img{
+    display: block;
+}
+footer .img-1{
+    width: 28px;
+    height: 21px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+footer .img-2{
+    width: 12px;
+    height: 28px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+footer .img-3{
+    width: 26px;
+    height: 24px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+footer h2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
